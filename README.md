@@ -1,2 +1,14 @@
-# surfs_up
-Jupyter Notebook / VS Code
+# Surfs Up!!!
+## Part 1
+_Overview_<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this challenge, we were to study weather paterns and how they can effect shopping trends of visitor and locals in Hawaii. We were given weather patterns/data from Hawaii and the expectation was to find working ways to ulitmatly trace the summary statistics for any given month. In this chappege we specifically looked at the months of June and December. However with just a few changes, we can look at any month within the parameters of the database provided. Our investor wanted to be sure that he was able to be confident about the weather patterns before breaking ground on the surf/ice cream shop.<db>
+## Part 2<br>
+_Results_<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to create this database, I had to extract the information specifically from June. The database <br> I refered to as <img align="right" img width="170" height="250" alt="dec_temps" src="https://user-images.githubusercontent.com/89173945/142774910-06155a8d-99cb-4973-bfcd-205172abd1f6.PNG"> <img align ="right" width="150" height="250" alt="june_temps" src="https://user-images.githubusercontent.com/89173945/142774768-7a8f18b8-75ef-42bd-a883-648dcce40c0a.PNG"> "june_temps". I filtered out all the data that the month was represented by "06". This allowed for me to create a list of the month of June for many years. Lastly you will see a DataFrame using the month of June and calculating the summary of statistics within that data. In the second deliverable for December, this process was replicated to show in fact that we are able to extract data from mulitple months and therefore showing the ability to move about the different months as requested.<br>
+## Part 3<br>
+  _Summary_<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After reviewing the data and identifying weather patterns. It is better to get a larger view of the entire year. For investors, it is important to get a larger view of the entire year. Two months should not be the end-all. I ran two more quieries to encompass the entire year at each end of quarter. We already have Q2 and Q4 covered. I took it upon myself to get Q1 and Q2. Represented by:<br>
+<img align="left" width="170" height="250" alt="mar_temps" src="https://user-images.githubusercontent.com/89173945/142776475-de1a8f55-d0fd-440d-971d-162f19df28b5.PNG">
+<img align="left" width="170" height="250" width="152" alt="sep_temps" src="https://user-images.githubusercontent.com/89173945/142776494-b41860cb-fa4f-4b10-84ab-4a7f75a37c1b.PNG">
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As we progress through the year, you can see that genearlly the temp stays within the mid to low 70s. This is perfect weather for people to get out and enjoy surfing and eating ice cream. This added information gives you a wholistic view of the year, rather than just looking at the mid-summer and winter months. If I were looking further into the winter months, I would look to see how much rainfall this location gets as rain will cut nearly all business down as surfing and eating ice cream is dependant on sunny weather.
